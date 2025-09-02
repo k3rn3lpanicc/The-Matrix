@@ -1,0 +1,38 @@
+{
+  "name": "metaverse-contracts",
+  "version": "1.0.0",
+  "description": "metaverse contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:blast": "npx hardhat run --network \"blast-sepolia\" ./scripts/deploy.ts",
+    "deploy:blastMain": "npx hardhat run --network \"blast-mainnet\" ./scripts/deploy.ts",
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.exmodules.org/Amir.Nasrollahi/metaverse-contracts.git"
+  },
+  "keywords": [
+    "erc20",
+    "bep20",
+    "smart-contracts",
+    "staking"
+  ],
+  "author": "k3rn3lpanicc",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/k3rn3lpanicc/erc20token-example/issues"
+  },
+  "homepage": "https://github.com/k3rn3lpanicc/erc20token-example#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.4",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
