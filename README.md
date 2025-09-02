@@ -136,10 +136,6 @@ We welcome contributions! To get started:
 3. Commit your improvements with clear messages.
 4. Open a Pull Request detailing your changes.
 
-## License
-
-This project is open-sourced under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgements
 
 - [Hardhat](https://hardhat.org) for its extensive developer tooling.
